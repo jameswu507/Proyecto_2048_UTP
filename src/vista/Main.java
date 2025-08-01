@@ -43,6 +43,10 @@ public class Main extends JFrame {
         titulo.setFont(new Font("Consolas", Font.BOLD, 22));
         titulo.setForeground(new Color(0, 255, 255));
 
+        JLabel facultad = new JLabel("Universidad Tecnológica de Panamá", SwingConstants.CENTER);
+        facultad.setForeground(Color.white);
+        facultad.setFont(new Font("Consolas", Font.PLAIN, 14));
+        
         JLabel facultad = new JLabel("Facultad de Ingeniería de Sistemas Computacionales", SwingConstants.CENTER);
         facultad.setForeground(Color.white);
         facultad.setFont(new Font("Consolas", Font.PLAIN, 14));

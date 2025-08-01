@@ -143,18 +143,3 @@ public class Main extends JFrame {
         new Main();
     }
 }
-
-
-package main;
-
-import gui.WelcomeFrame;
-import javax.swing.SwingUtilities;
-
-public class Main {
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            WelcomeFrame welcomeFrame = new WelcomeFrame();
-            welcomeFrame.setVisible(true);
-        });
-    }
-}

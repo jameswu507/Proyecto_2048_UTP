@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es una versión mejorada y personalizada del clásico juego **2048**, desarrollado como parte del **Proyecto Final** de la Universidad Tecnológica de Panamá (UTP), Facultad de Ingeniería de Sistemas Computacionales.  
+Este proyecto es una versión mejorada y personalizada del juego **2048**, desarrollado como parte del **Proyecto Final** de la Universidad Tecnológica de Panamá (UTP), Facultad de Ingeniería de Sistemas Computacionales.  
 La aplicación presenta un **diseño futurista y animado**, con efectos visuales y sonoros innovadores que mejoran la experiencia del usuario.
 
 ---

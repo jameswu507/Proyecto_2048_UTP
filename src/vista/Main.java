@@ -144,7 +144,7 @@ public class Main extends JFrame {
     }
 }
 
-// Main.java
+
 package main;
 
 import gui.WelcomeFrame;

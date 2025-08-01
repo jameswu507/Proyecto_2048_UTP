@@ -15,7 +15,7 @@ La aplicación presenta un **diseño futurista y animado**, con efectos visuales
 - **Animaciones con robots, vehículos y máquinas** en las fichas al fusionarse.  
 - **Animación especial “WASTED” con sonido GTA V** cuando el jugador pierde.  
 - **Controles mediante teclas (W, A, S, D)** o flechas del teclado.  
-- **Visualización de **Puntuación actual y Mejor puntuación**.  
+- Visualización de **Puntuación actual y Mejor puntuación**.
 - Botón de **Reiniciar juego** para empezar una nueva partida.  
 - **Validaciones de entrada y manejo de excepciones** para evitar errores inesperados.
 

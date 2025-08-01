@@ -63,7 +63,7 @@ git clone https://github.com/jameswu507/Proyecto_2048_UTP.git
 
 4. **Ejecutar el juego:**  
    - Ejecutar `Main.java` para abrir la pantalla de inicio.  
-   - Presionar **" Iniciar Juego"** para comenzar.
+   - Presionar **"Iniciar Juego"**para comenzar.
 
 5. **Controles:**  
    - Usa **W, A, S, D** o **flechas** para mover las fichas.  

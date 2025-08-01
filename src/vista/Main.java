@@ -84,13 +84,13 @@ public class Main extends JFrame {
         panelBotones.setOpaque(false);
         panelBotones.setBorder(BorderFactory.createEmptyBorder(20, 0, 30, 0));
 
-        JButton btnIniciar = crearBotonFuturista("🚀 Iniciar Juego", new Color(0, 255, 255));
+        JButton btnIniciar = crearBotonFuturista("Iniciar Juego", new Color(0, 255, 255));
         btnIniciar.addActionListener(e -> {
             new GUI2048(new Tablero(4));
             dispose();
         });
 
-        JButton btnSalir = crearBotonFuturista("❌ Salir", new Color(255, 80, 80));
+        JButton btnSalir = crearBotonFuturista("Salir", new Color(255, 80, 80));
         btnSalir.addActionListener(e -> System.exit(0));
 
         panelBotones.add(btnIniciar);

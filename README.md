@@ -72,10 +72,10 @@ git clone https://github.com/jameswu507/Proyecto_2048_UTP.git
 
 ##  Integrantes
 
-- Jaime Wu  
-- Andrés Wu  
-- Michael Chen  
-- YongSheng Du  
+- Jaime Wu  8-1024-2485
+- Andrés Wu  8-1027-2259
+- Michael Chen  8-1034-732
+- YongSheng Du  E-9-199982
 
 Profesor: **Rodrigo Yángüez**  
 Universidad Tecnológica de Panamá – **Facultad de Ingeniería de Sistemas Computacionales**

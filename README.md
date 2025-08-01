@@ -47,7 +47,8 @@ Proyecto_2048_UTP/
 
 ---
 1. **Abra primero la aplicación** 
-
+   - Ejecuntado el programa.
+     
 2. **Abrir en IntelliJ IDEA**  
    - Ir a `File > Open` y seleccionar la carpeta del proyecto.
 

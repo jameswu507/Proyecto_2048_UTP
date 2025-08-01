@@ -132,7 +132,7 @@ public class Tablero {
         return cambiado;
     }
 
-    // ✅ Verificar si el tablero está bloqueado (sin movimientos posibles)
+    // Verificar si el tablero está bloqueado (sin movimientos posibles)
     public boolean estaBloqueado() {
         for (int i = 0; i < celdas.length; i++) {
             for (int j = 0; j < celdas.length; j++) {
@@ -151,7 +151,7 @@ public class Tablero {
         return true;
     }
 
-    // ✅ Mostrar tablero en consola
+    // Mostrar tablero en consola
     public void mostrarTablero() {
         System.out.println("=== TABLERO ===");
         for (int i = 0; i < celdas.length; i++) {

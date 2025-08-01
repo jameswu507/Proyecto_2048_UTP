@@ -47,14 +47,6 @@ Proyecto_2048_UTP/
 
 ---
 
-## Cómo jugar
-
-1. **Clonar el repositorio:**
-
-```bash
-git clone https://github.com/jameswu507/Proyecto_2048_UTP.git
-```
-
 2. **Abrir en IntelliJ IDEA**  
    - Ir a `File > Open` y seleccionar la carpeta del proyecto.
 

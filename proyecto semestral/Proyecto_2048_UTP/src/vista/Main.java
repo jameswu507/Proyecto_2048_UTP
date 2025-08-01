@@ -47,7 +47,7 @@ public class Main extends JFrame {
         facultad.setForeground(Color.white);
         facultad.setFont(new Font("Consolas", Font.PLAIN, 14));
 
-        JLabel carrera = new JLabel("Carrera: Licenciatura en Ingeniería de Software", SwingConstants.CENTER);
+        JLabel carrera = new JLabel("Carrera: Licenciatura en Ingeniería del Software", SwingConstants.CENTER);
         carrera.setForeground(Color.white);
         carrera.setFont(new Font("Consolas", Font.PLAIN, 14));
 

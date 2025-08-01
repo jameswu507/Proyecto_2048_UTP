@@ -119,7 +119,7 @@ public class GUI2048 extends JFrame {
         JOptionPane.showMessageDialog(
                 null,
                 "",
-                "💀 WASTED - GAME OVER",
+                "💀 WASTED - GAME OVER 💀",
                 JOptionPane.PLAIN_MESSAGE,
                 iconoWasted
         );

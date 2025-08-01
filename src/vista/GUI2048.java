@@ -53,7 +53,7 @@ public class GUI2048 extends JFrame {
         lblScore.setFont(new Font("Consolas", Font.BOLD, 20));
         topPanel.add(lblScore, BorderLayout.CENTER);
 
-        btnRestart = new JButton("⟳ Play Again");
+        btnRestart = new JButton("Play Again");
         btnRestart.setBackground(new Color(20, 20, 50));
         btnRestart.setForeground(Color.CYAN);
         btnRestart.setFocusPainted(false);

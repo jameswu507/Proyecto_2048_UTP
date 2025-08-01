@@ -70,17 +70,6 @@ git clone https://github.com/jameswu507/Proyecto_2048_UTP.git
    - Junta fichas iguales para sumar puntos.  
    - Al llegar a 2048 ganas la partida.
 
----
-
-## Capturas de pantalla
-
-*(Ejemplos de la interfaz futurista y la pantalla de inicio)*
-
-![Pantalla de Inicio](recursos/imagenes/captura_inicio.png)
-![Tablero Futurista](recursos/imagenes/captura_tablero.png)
-
----
-
 ##  Integrantes
 
 - Jaime Wu  

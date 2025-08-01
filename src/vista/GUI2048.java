@@ -29,14 +29,14 @@ public class GUI2048 extends JFrame {
         setResizable(false);
         setLayout(new BorderLayout());
 
-        // 🎵 Música de fondo
+        // Música de fondo
         audioManager.reproducirMusicaLoop("audio/pantera_rosa.wav");
 
         // === PANEL SUPERIOR ===
         JPanel topPanel = new JPanel(new BorderLayout());
         topPanel.setBackground(new Color(10, 10, 30));
 
-        // 🎚️ Slider de volumen
+        // 🎚Slider de volumen
         JSlider sliderVolumen = new JSlider(0, 100, 50);
         sliderVolumen.setPreferredSize(new Dimension(120, 40));
         sliderVolumen.setBackground(new Color(10, 10, 30));

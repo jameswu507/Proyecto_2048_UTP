@@ -7,4 +7,15 @@ public class Ficha {
         this.valor = valor;
     }
 
+    public int getValor() {
+        return valor;
+    }
 
+    public void setValor(int valor) {
+        this.valor = valor;
+    }
+
+    public boolean esIgual(Ficha otra) {
+        return otra != null && this.valor == otra.getValor();
+    }
+}

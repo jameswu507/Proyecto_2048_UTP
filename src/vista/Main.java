@@ -37,25 +37,28 @@ public class Main extends JFrame {
         JLabel lblLogoFISC = new JLabel(cargarImagen("imagenes/logo2_utp.png", 95, 95));
 
         // Panel central del título
-        JPanel panelTitulo = new JPanel(new GridLayout(3, 1));
+        JPanel panelTitulo = new JPanel(new GridLayout(4, 1)); // Cambiado a 4 filas
         panelTitulo.setOpaque(false);
+
         JLabel titulo = new JLabel("Proyecto Final - Juego 2048", SwingConstants.CENTER);
         titulo.setFont(new Font("Consolas", Font.BOLD, 22));
         titulo.setForeground(new Color(0, 255, 255));
 
-        JLabel facultad = new JLabel("Universidad Tecnológica de Panamá", SwingConstants.CENTER);
-        facultad.setForeground(Color.white);
-        facultad.setFont(new Font("Consolas", Font.PLAIN, 14));
-        
+        JLabel universidad = new JLabel("Universidad Tecnológica de Panamá", SwingConstants.CENTER);
+        universidad.setForeground(Color.WHITE);
+        universidad.setFont(new Font("Consolas", Font.PLAIN, 14));
+
         JLabel facultad = new JLabel("Facultad de Ingeniería de Sistemas Computacionales", SwingConstants.CENTER);
-        facultad.setForeground(Color.white);
+        facultad.setForeground(Color.WHITE);
         facultad.setFont(new Font("Consolas", Font.PLAIN, 14));
 
         JLabel carrera = new JLabel("Carrera: Licenciatura en Ingeniería de Software", SwingConstants.CENTER);
-        carrera.setForeground(Color.white);
+        carrera.setForeground(Color.WHITE);
         carrera.setFont(new Font("Consolas", Font.PLAIN, 14));
 
+        // Agregar en orden correcto
         panelTitulo.add(titulo);
+        panelTitulo.add(universidad);
         panelTitulo.add(facultad);
         panelTitulo.add(carrera);
 
@@ -68,7 +71,7 @@ public class Main extends JFrame {
         panelCentro.setOpaque(false);
         panelCentro.setLayout(new BoxLayout(panelCentro, BoxLayout.Y_AXIS));
 
-        JLabel integrantes = new JLabel("<html><center>Integrantes:<br>Jaime Wu 8-1024-2485 <br>Andrés Wu 8-1027-2259 <br>- Michael Chen 8-1034-732 <br>- YongSheng Du E-8-199982 <br> 1SF122</center></html>", SwingConstants.CENTER);
+        JLabel integrantes = new JLabel("<html><center>Integrantes:<br>Jaime Wu 8-1024-2485 <br>Andrés Wu 8-1027-2259 <br>Michael Chen 8-1034-732 <br>YongSheng Du E-8-199982 <br> 1SF122</center></html>", SwingConstants.CENTER);
         integrantes.setForeground(Color.WHITE);
         integrantes.setFont(new Font("Consolas", Font.PLAIN, 30));
         integrantes.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -88,13 +91,13 @@ public class Main extends JFrame {
         panelBotones.setOpaque(false);
         panelBotones.setBorder(BorderFactory.createEmptyBorder(20, 0, 30, 0));
 
-        JButton btnIniciar = crearBotonFuturista("Iniciar Juego", new Color(0, 255, 255));
+        JButton btnIniciar = crearBotonFuturista(" Iniciar Juego", new Color(0, 255, 255));
         btnIniciar.addActionListener(e -> {
             new GUI2048(new Tablero(4));
             dispose();
         });
 
-        JButton btnSalir = crearBotonFuturista("Salir", new Color(255, 80, 80));
+        JButton btnSalir = crearBotonFuturista(" Salir", new Color(255, 80, 80));
         btnSalir.addActionListener(e -> System.exit(0));
 
         panelBotones.add(btnIniciar);

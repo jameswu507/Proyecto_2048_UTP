@@ -71,7 +71,7 @@ public class Main extends JFrame {
         panelCentro.setOpaque(false);
         panelCentro.setLayout(new BoxLayout(panelCentro, BoxLayout.Y_AXIS));
 
-        JLabel integrantes = new JLabel("<html><center>Integrantes:<br>Jaime Wu 8-1024-2485 <br>Andrés Wu 8-1027-2259 <br>Michael Chen 8-1034-732 <br>YongSheng Du E-8-199982 <br> 1SF122</center></html>", SwingConstants.CENTER);
+        JLabel integrantes = new JLabel("<html><center>Integrantes:<br>Jaime Wu 8-1024-2485 <br>Andrés Wu 8-1027-2259 <br>Michael Chen 8-1034-732 <br>YongSheng Du E-8-199982 <br> 1SF122 <br> Fecha: 01/08/2025</center></html>", SwingConstants.CENTER);
         integrantes.setForeground(Color.WHITE);
         integrantes.setFont(new Font("Consolas", Font.PLAIN, 30));
         integrantes.setAlignmentX(Component.CENTER_ALIGNMENT);

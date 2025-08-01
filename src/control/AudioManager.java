@@ -45,7 +45,7 @@ public class AudioManager {
         if (musica != null && musica.isRunning()) musica.stop();
     }
 
-    // ✅ Ajustar volumen (0.0f = silencio, 1.0f = máximo)
+    // Ajustar volumen (0.0f = silencio, 1.0f = máximo)
     public void setVolumen(float nivel) {
         if (controlVolumen != null) {
             // Volumen en decibelios (-80 = silencio, 6 = máximo)

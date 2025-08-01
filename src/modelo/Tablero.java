@@ -22,15 +22,13 @@ public class Tablero {
     public Ficha[][] getCeldas() {
         return celdas;
     }
-
     public int getPuntaje() {
         return puntaje;
     }
-
     public Set<Point> getCeldasFusionadas() {
         return celdasFusionadas;
     }
-
+    
     // Agregar ficha en posición aleatoria
     public void agregarFicha() {
         Random random = new Random();

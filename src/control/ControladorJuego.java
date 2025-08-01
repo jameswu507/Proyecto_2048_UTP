@@ -10,10 +10,7 @@ public class ControladorJuego {
         this.tablero = tablero;
     }
 
-    // Gestiona la entrada de dirección y mueve las fichas
-    public void gestionarEntrada(Direccion dir) {
-        tablero.mover(dir);
-    }
+
 
     // Reinicia el juego con un tablero nuevo
     public void reiniciarJuego() {
